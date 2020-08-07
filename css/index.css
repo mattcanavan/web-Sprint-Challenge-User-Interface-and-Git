@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,103 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav {
+    width: vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 20px 2%;
+    font-size: 14px;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerImg{
+    margin: 2%;
+}
+
+/* Boxes on Index.html */
+.box1{
+    background-color: teal;
+}
+
+.box2{
+    background-color: gold;
+}
+
+.box3{
+    background-color: cadetblue;
+}
+
+.box4{
+    background-color: coral;
+}
+
+.box5{
+    background-color: crimson;
+}
+
+.box6{
+    background-color: forestgreen;
+}
+
+.box7{
+    background-color: darkorchid;
+}
+
+.box8{
+    background-color: hotpink;
+}
+
+.box9{
+    background-color: indigo;
+}
+
+.box10{
+    background-color: dodgerblue;
+}
+
+/* ABOUT.HTML STYLING */
+/* Top Paragraph style */
+.aboutPara{
+    text-align: left;
+    padding: 5%;
+    padding-top: 2%;
+    margin-bottom: 2.5%;
+    border-bottom: 1px dashed black;
+}
+
+/* Bottom Paragraph style */
+.leveragePara{
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+/* Two images live in a row/flex-container. Two rows were used. */
+section.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Each imagine is contained in an .outter class. This is how I was adding the bottom-border. Unable to reproduce that gap between left image and right image borders. */
+.outter{
+    border-bottom: 1px dashed black;
+    line-height: 1.5rem;
+    margin-bottom: 5%;
+}
+
+/* Learn More button styling */
+button{
+    border-radius: 15%;
+    background-color: white;
+    padding: 2% 5%;
+    border: 2px solid black;
+    font-size: 1rem;
+    margin: 5% 0;
 }
