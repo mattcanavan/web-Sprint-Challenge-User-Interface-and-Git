@@ -164,7 +164,7 @@ header nav a{
     margin: 2%;
 }
 
-/* Boxs on Index.html */
+/* Boxes on Index.html */
 .box1{
     background-color: teal;
 }
@@ -205,8 +205,7 @@ header nav a{
     background-color: dodgerblue;
 }
 
-/* About.html styling */
-
+/* ABOUT.HTML STYLING */
 /* Top Paragraph style */
 .aboutPara{
     text-align: left;
@@ -222,13 +221,13 @@ header nav a{
     margin-bottom: 5%;
 }
 
-/* Two images live in a row. Two rows were used. */
+/* Two images live in a row/flex-container. Two rows were used. */
 section.row{
     display: flex;
     justify-content: space-between;
 }
 
-/* Each imagine is contained in an outter class. This is how I was adding the bottom-border */
+/* Each imagine is contained in an .outter class. This is how I was adding the bottom-border. Unable to reproduce that gap between left image and right image borders. */
 .outter{
     border-bottom: 1px dashed black;
     line-height: 1.5rem;
